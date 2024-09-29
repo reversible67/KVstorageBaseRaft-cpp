@@ -17,15 +17,15 @@ public:
     bool CommandValid;
     // 存储命令
     std::string Command;
-    // 存储命令的索引
+    // 存储命令的索�?
     int CommandIndex;
     // 表示快照是否有效
     bool SnapshotValid;
     // 存储快照
     std::string Snapshot;
-    // 存储快照的任期
+    // 存储快照的任�?
     int SnapshotTerm;
-    // 存储快照的索引
+    // 存储快照的索�?
     int SnapshotIndex;
 
 public:
@@ -39,4 +39,6 @@ public:
         , SnapshotIndex(-1){
     }
 };
+
+}
 #endif
